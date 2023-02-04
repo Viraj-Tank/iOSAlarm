@@ -1,0 +1,16 @@
+"alarm" = "alarm"; // this needs to end with semicolon in every line
+"on" = "🔔";
+"off" = "🔕";
+"Add Alarm" = "Add Alarm";
+"No Alarms" = "No Alarms";
+"to Anton's Page" = "to Anton's Page";
+"This UI for this nice Alarm app was largely inspored by the amazing work of Anton Leogky" = "This UI for this nice Alarm app was largely inspored by the amazing work of Anton Leogky";
+"you did it! here you can manage your alarm, change time and other things" = "you did it! here you can manage your alarm, change time and other things";
+"hello there!" = "hello there!";
+"start" = "start";
+"end" = "end";
+"let's add an alarm" = "let's add an alarm";
+"Have a great day!" = "Have a great day!";
+"Activity completed." = "Activity completed.";
+"Enable Notifications" = "Enable Notifications";
+
