@@ -5,7 +5,8 @@ import SwiftUI
 struct iOSAlarmApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()
+//            SplashScreenView()
+            AboutView()
         }
     }
 }
@@ -19,6 +20,8 @@ struct iOSAlarmApp: App {
  - start working on UI part and make sure code is clean and readable
  - creating time and date support function
  - setup splash screen (first we're setting circles with animation)
+ - then titles and splash screen ZStack onAppear navigation
+ - asking for user permission
  
  
  -> pexels.com

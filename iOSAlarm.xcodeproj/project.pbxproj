@@ -26,6 +26,11 @@
 		98D27DD7298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D27DD5298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf */; };
 		98D27DD9298F744A000D3AB1 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DD8298F744A000D3AB1 /* CoolTextView.swift */; };
 		98D27DDD298F76AA000D3AB1 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DDC298F76AA000D3AB1 /* ImageConstants.swift */; };
+		98D27DDF298F83CF000D3AB1 /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DDE298F83CF000D3AB1 /* EnableNotifications.swift */; };
+		98D27DE1298F8491000D3AB1 /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE0298F8491000D3AB1 /* MainGradient.swift */; };
+		98D27DE3298F8556000D3AB1 /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE2298F8556000D3AB1 /* ScreenConstants.swift */; };
+		98D27DE5298F86BA000D3AB1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE4298F86BA000D3AB1 /* ButtonView.swift */; };
+		98D27DE7298F89E7000D3AB1 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE6298F89E7000D3AB1 /* AddEditAlarmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		98D27DD5298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		98D27DD8298F744A000D3AB1 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
 		98D27DDC298F76AA000D3AB1 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		98D27DDE298F83CF000D3AB1 /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
+		98D27DE0298F8491000D3AB1 /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
+		98D27DE2298F8556000D3AB1 /* ScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
+		98D27DE4298F86BA000D3AB1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		98D27DE6298F89E7000D3AB1 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +158,7 @@
 				98295AEC298ECF7400530E30 /* ColorConstants.swift */,
 				98D27DCC298F665E000D3AB1 /* Activity Constants.swift */,
 				98D27DDC298F76AA000D3AB1 /* ImageConstants.swift */,
+				98D27DE2298F8556000D3AB1 /* ScreenConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -183,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				98D27DD0298F69FA000D3AB1 /* SplashScreenView.swift */,
+				98D27DE6298F89E7000D3AB1 /* AddEditAlarmView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -190,6 +202,7 @@
 		98295AE0298EC33900530E30 /* Sub Views */ = {
 			isa = PBXGroup;
 			children = (
+				98D27DDE298F83CF000D3AB1 /* EnableNotifications.swift */,
 			);
 			path = "Sub Views";
 			sourceTree = "<group>";
@@ -201,6 +214,8 @@
 				98295AEE298ED34100530E30 /* TimeOfDayIcon.swift */,
 				98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */,
 				98D27DD8298F744A000D3AB1 /* CoolTextView.swift */,
+				98D27DE0298F8491000D3AB1 /* MainGradient.swift */,
+				98D27DE4298F86BA000D3AB1 /* ButtonView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -287,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D27DE1298F8491000D3AB1 /* MainGradient.swift in Sources */,
 				98295ACB298EBE8300530E30 /* MainAlarmView.swift in Sources */,
 				98D27DCB298F6489000D3AB1 /* AlarmModel.swift in Sources */,
 				98295AC9298EBE8300530E30 /* iOSAlarmApp.swift in Sources */,
@@ -294,13 +310,17 @@
 				98D27DD1298F69FA000D3AB1 /* SplashScreenView.swift in Sources */,
 				98295AF1298ED3C800530E30 /* TimeAndDateSupport.swift in Sources */,
 				98295AF3298EDBDD00530E30 /* TimeModel.swift in Sources */,
+				98D27DE5298F86BA000D3AB1 /* ButtonView.swift in Sources */,
 				98D27DDD298F76AA000D3AB1 /* ImageConstants.swift in Sources */,
+				98D27DE3298F8556000D3AB1 /* ScreenConstants.swift in Sources */,
 				98D27DCD298F665E000D3AB1 /* Activity Constants.swift in Sources */,
 				98D27DD9298F744A000D3AB1 /* CoolTextView.swift in Sources */,
 				98295AE4298EC39C00530E30 /* GrayedTextView.swift in Sources */,
+				98D27DDF298F83CF000D3AB1 /* EnableNotifications.swift in Sources */,
 				98295AED298ECF7400530E30 /* ColorConstants.swift in Sources */,
 				98D27DD3298F6B73000D3AB1 /* FourCoolCircles.swift in Sources */,
 				98295AEF298ED34100530E30 /* TimeOfDayIcon.swift in Sources */,
+				98D27DE7298F89E7000D3AB1 /* AddEditAlarmView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

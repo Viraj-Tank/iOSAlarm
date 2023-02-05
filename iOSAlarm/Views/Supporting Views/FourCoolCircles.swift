@@ -57,8 +57,6 @@ struct FourCoolCircles: View {
         }
     }
 }
-let screenWidth = UIScreen.main.bounds.width
-let screenHeight = UIScreen.main.bounds.height
 
 
 struct CoolCircleView: View {
