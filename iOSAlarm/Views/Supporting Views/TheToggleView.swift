@@ -101,10 +101,9 @@ struct ShiftedCircle: View {
 
 struct TheToggleView_Previews: PreviewProvider {
     static var previews: some View {
-        VStack{
+        VStack {
             TheToggleView(isOn: .constant(true))
             TheToggleView(isOn: .constant(false))
         }
-        
     }
 }

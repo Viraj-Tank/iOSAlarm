@@ -36,7 +36,7 @@ struct AlarmModel: Identifiable {
             body: "Have a great day!",
             repeats: false,
             sound: Sounds.lagrima,
-            alarmEnabled: false,
+            alarmEnabled: true,
             start: Date(),
             end: Date(),
             activity: activities[0],

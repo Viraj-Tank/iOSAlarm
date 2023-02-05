@@ -17,6 +17,7 @@
 		98295AEF298ED34100530E30 /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98295AEE298ED34100530E30 /* TimeOfDayIcon.swift */; };
 		98295AF1298ED3C800530E30 /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98295AF0298ED3C800530E30 /* TimeAndDateSupport.swift */; };
 		98295AF3298EDBDD00530E30 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98295AF2298EDBDD00530E30 /* TimeModel.swift */; };
+		98B3B4CA299018CF00DBC49E /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3B4C9299018CF00DBC49E /* SelectActivityView.swift */; };
 		98D27DCB298F6489000D3AB1 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCA298F6489000D3AB1 /* AlarmModel.swift */; };
 		98D27DCD298F665E000D3AB1 /* Activity Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCC298F665E000D3AB1 /* Activity Constants.swift */; };
 		98D27DCF298F6703000D3AB1 /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCE298F6703000D3AB1 /* SoundConstants.swift */; };
@@ -54,6 +55,7 @@
 		98295AEE298ED34100530E30 /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		98295AF0298ED3C800530E30 /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
 		98295AF2298EDBDD00530E30 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		98B3B4C9299018CF00DBC49E /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
 		98D27DCA298F6489000D3AB1 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 		98D27DCC298F665E000D3AB1 /* Activity Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity Constants.swift"; sourceTree = "<group>"; };
 		98D27DCE298F6703000D3AB1 /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				98D27DEE298FAA7B000D3AB1 /* AlarmToggleView.swift */,
 				98D27DF0298FAAFD000D3AB1 /* TheToggleView.swift */,
 				98D27DF2298FE06F000D3AB1 /* TimePicker.swift */,
+				98B3B4C9299018CF00DBC49E /* SelectActivityView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				98D27DE1298F8491000D3AB1 /* MainGradient.swift in Sources */,
 				98295ACB298EBE8300530E30 /* MainAlarmView.swift in Sources */,
 				98D27DED298F97EA000D3AB1 /* CancelSaveAlarm.swift in Sources */,
+				98B3B4CA299018CF00DBC49E /* SelectActivityView.swift in Sources */,
 				98D27DCB298F6489000D3AB1 /* AlarmModel.swift in Sources */,
 				98D27DF3298FE06F000D3AB1 /* TimePicker.swift in Sources */,
 				98D27DF1298FAAFD000D3AB1 /* TheToggleView.swift in Sources */,

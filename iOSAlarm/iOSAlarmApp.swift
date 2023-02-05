@@ -22,6 +22,8 @@ struct iOSAlarmApp: App {
  - setup splash screen (first we're setting circles with animation)
  - then titles and splash screen ZStack onAppear navigation
  - asking for user permission
+ - creating addEditAlarmView screen (creating view depth by depth)
+ 
  
  
  -> pexels.com
