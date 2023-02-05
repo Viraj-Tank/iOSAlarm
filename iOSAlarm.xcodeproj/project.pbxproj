@@ -22,6 +22,10 @@
 		98D27DCF298F6703000D3AB1 /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCE298F6703000D3AB1 /* SoundConstants.swift */; };
 		98D27DD1298F69FA000D3AB1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DD0298F69FA000D3AB1 /* SplashScreenView.swift */; };
 		98D27DD3298F6B73000D3AB1 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */; };
+		98D27DD6298F741D000D3AB1 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D27DD4298F741D000D3AB1 /* WorkSans-Italic-VariableFont_wght.ttf */; };
+		98D27DD7298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D27DD5298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf */; };
+		98D27DD9298F744A000D3AB1 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DD8298F744A000D3AB1 /* CoolTextView.swift */; };
+		98D27DDD298F76AA000D3AB1 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DDC298F76AA000D3AB1 /* ImageConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		98D27DCE298F6703000D3AB1 /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
 		98D27DD0298F69FA000D3AB1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
+		98D27DD4298F741D000D3AB1 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		98D27DD5298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		98D27DD8298F744A000D3AB1 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
+		98D27DDC298F76AA000D3AB1 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,8 @@
 		98295ADA298EC2F900530E30 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				98D27DD4298F741D000D3AB1 /* WorkSans-Italic-VariableFont_wght.ttf */,
+				98D27DD5298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -137,6 +147,7 @@
 			children = (
 				98295AEC298ECF7400530E30 /* ColorConstants.swift */,
 				98D27DCC298F665E000D3AB1 /* Activity Constants.swift */,
+				98D27DDC298F76AA000D3AB1 /* ImageConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -189,6 +200,7 @@
 				98295AE3298EC39C00530E30 /* GrayedTextView.swift */,
 				98295AEE298ED34100530E30 /* TimeOfDayIcon.swift */,
 				98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */,
+				98D27DD8298F744A000D3AB1 /* CoolTextView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -263,6 +275,8 @@
 				98295AD1298EBE8400530E30 /* Preview Assets.xcassets in Resources */,
 				98295AE7298EC58300530E30 /* Localizable.strings in Resources */,
 				98295ACD298EBE8400530E30 /* Assets.xcassets in Resources */,
+				98D27DD7298F741D000D3AB1 /* WorkSans-VariableFont_wght.ttf in Resources */,
+				98D27DD6298F741D000D3AB1 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +294,9 @@
 				98D27DD1298F69FA000D3AB1 /* SplashScreenView.swift in Sources */,
 				98295AF1298ED3C800530E30 /* TimeAndDateSupport.swift in Sources */,
 				98295AF3298EDBDD00530E30 /* TimeModel.swift in Sources */,
+				98D27DDD298F76AA000D3AB1 /* ImageConstants.swift in Sources */,
 				98D27DCD298F665E000D3AB1 /* Activity Constants.swift in Sources */,
+				98D27DD9298F744A000D3AB1 /* CoolTextView.swift in Sources */,
 				98295AE4298EC39C00530E30 /* GrayedTextView.swift in Sources */,
 				98295AED298ECF7400530E30 /* ColorConstants.swift in Sources */,
 				98D27DD3298F6B73000D3AB1 /* FourCoolCircles.swift in Sources */,

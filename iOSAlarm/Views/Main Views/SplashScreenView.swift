@@ -17,8 +17,14 @@ struct SplashScreenView: View {
                 VStack {
                     
                     VStack(alignment: .leading,spacing: 0) {
-                        Text("Hello there!")
-                        Text("Let's add an Alarm!")
+                        CoolTextView(
+                            text: LocalizedStringKey("hello there!"), size: fontSize
+                        )
+                        
+                        CoolTextView(
+                            text: LocalizedStringKey("let's add an alarm"), size: fontSize
+                        )
+                    
                     }
                     .multilineTextAlignment(.leading)
                     .padding()
@@ -31,8 +37,27 @@ struct SplashScreenView: View {
                     
                     Spacer()
                     
-                    Text("IMAGE")
+                    Image("welcome")
+                        .resizable()
+                        .scaledToFit()
+                        .opacity(0.7)
                     
+                    Spacer()
+                    
+                }
+            }
+            .opacity(opacity)
+            .onAppear(perform: {
+                // after two seconds on appearing zstack is active will be true with animation
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                    withAnimation {
+                        self.isActive = true
+                    }
+                }
+            })
+            .onTapGesture {
+                withAnimation {
+                    self.isActive = true
                 }
             }
         }

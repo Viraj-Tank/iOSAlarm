@@ -3,7 +3,7 @@ import SwiftUI
 
 struct FourCoolCircles: View {
     
-    let color1: Color = darkYellow
+    let color1: Color = blue
     let color2: Color = lightYellow
     @State private var offsetX: [CGFloat] = [0,0,0,0]
     @State private var offsetY: [CGFloat] = [0,0,0,0]

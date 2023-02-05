@@ -7,6 +7,7 @@ struct MainAlarmView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
+            Text("Hellow")
         }
         .padding()
     }
