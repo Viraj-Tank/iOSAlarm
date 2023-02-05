@@ -20,6 +20,8 @@
 		98D27DCB298F6489000D3AB1 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCA298F6489000D3AB1 /* AlarmModel.swift */; };
 		98D27DCD298F665E000D3AB1 /* Activity Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCC298F665E000D3AB1 /* Activity Constants.swift */; };
 		98D27DCF298F6703000D3AB1 /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DCE298F6703000D3AB1 /* SoundConstants.swift */; };
+		98D27DD1298F69FA000D3AB1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DD0298F69FA000D3AB1 /* SplashScreenView.swift */; };
+		98D27DD3298F6B73000D3AB1 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		98D27DCA298F6489000D3AB1 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 		98D27DCC298F665E000D3AB1 /* Activity Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity Constants.swift"; sourceTree = "<group>"; };
 		98D27DCE298F6703000D3AB1 /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
+		98D27DD0298F69FA000D3AB1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		98295ADF298EC32E00530E30 /* Main Views */ = {
 			isa = PBXGroup;
 			children = (
+				98D27DD0298F69FA000D3AB1 /* SplashScreenView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 			children = (
 				98295AE3298EC39C00530E30 /* GrayedTextView.swift */,
 				98295AEE298ED34100530E30 /* TimeOfDayIcon.swift */,
+				98D27DD2298F6B73000D3AB1 /* FourCoolCircles.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -271,11 +277,13 @@
 				98D27DCB298F6489000D3AB1 /* AlarmModel.swift in Sources */,
 				98295AC9298EBE8300530E30 /* iOSAlarmApp.swift in Sources */,
 				98D27DCF298F6703000D3AB1 /* SoundConstants.swift in Sources */,
+				98D27DD1298F69FA000D3AB1 /* SplashScreenView.swift in Sources */,
 				98295AF1298ED3C800530E30 /* TimeAndDateSupport.swift in Sources */,
 				98295AF3298EDBDD00530E30 /* TimeModel.swift in Sources */,
 				98D27DCD298F665E000D3AB1 /* Activity Constants.swift in Sources */,
 				98295AE4298EC39C00530E30 /* GrayedTextView.swift in Sources */,
 				98295AED298ECF7400530E30 /* ColorConstants.swift in Sources */,
+				98D27DD3298F6B73000D3AB1 /* FourCoolCircles.swift in Sources */,
 				98295AEF298ED34100530E30 /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
