@@ -31,6 +31,12 @@
 		98D27DE3298F8556000D3AB1 /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE2298F8556000D3AB1 /* ScreenConstants.swift */; };
 		98D27DE5298F86BA000D3AB1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE4298F86BA000D3AB1 /* ButtonView.swift */; };
 		98D27DE7298F89E7000D3AB1 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE6298F89E7000D3AB1 /* AddEditAlarmView.swift */; };
+		98D27DE9298F8AF8000D3AB1 /* YouDidItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DE8298F8AF8000D3AB1 /* YouDidItView.swift */; };
+		98D27DEB298F9349000D3AB1 /* ToBedWakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DEA298F9349000D3AB1 /* ToBedWakeUpView.swift */; };
+		98D27DED298F97EA000D3AB1 /* CancelSaveAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DEC298F97EA000D3AB1 /* CancelSaveAlarm.swift */; };
+		98D27DEF298FAA7B000D3AB1 /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DEE298FAA7B000D3AB1 /* AlarmToggleView.swift */; };
+		98D27DF1298FAAFD000D3AB1 /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DF0298FAAFD000D3AB1 /* TheToggleView.swift */; };
+		98D27DF3298FE06F000D3AB1 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D27DF2298FE06F000D3AB1 /* TimePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +68,12 @@
 		98D27DE2298F8556000D3AB1 /* ScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
 		98D27DE4298F86BA000D3AB1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		98D27DE6298F89E7000D3AB1 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		98D27DE8298F8AF8000D3AB1 /* YouDidItView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDidItView.swift; sourceTree = "<group>"; };
+		98D27DEA298F9349000D3AB1 /* ToBedWakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBedWakeUpView.swift; sourceTree = "<group>"; };
+		98D27DEC298F97EA000D3AB1 /* CancelSaveAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSaveAlarm.swift; sourceTree = "<group>"; };
+		98D27DEE298FAA7B000D3AB1 /* AlarmToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmToggleView.swift; sourceTree = "<group>"; };
+		98D27DF0298FAAFD000D3AB1 /* TheToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheToggleView.swift; sourceTree = "<group>"; };
+		98D27DF2298FE06F000D3AB1 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +214,9 @@
 		98295AE0298EC33900530E30 /* Sub Views */ = {
 			isa = PBXGroup;
 			children = (
+				98D27DE8298F8AF8000D3AB1 /* YouDidItView.swift */,
 				98D27DDE298F83CF000D3AB1 /* EnableNotifications.swift */,
+				98D27DEA298F9349000D3AB1 /* ToBedWakeUpView.swift */,
 			);
 			path = "Sub Views";
 			sourceTree = "<group>";
@@ -216,6 +230,10 @@
 				98D27DD8298F744A000D3AB1 /* CoolTextView.swift */,
 				98D27DE0298F8491000D3AB1 /* MainGradient.swift */,
 				98D27DE4298F86BA000D3AB1 /* ButtonView.swift */,
+				98D27DEC298F97EA000D3AB1 /* CancelSaveAlarm.swift */,
+				98D27DEE298FAA7B000D3AB1 /* AlarmToggleView.swift */,
+				98D27DF0298FAAFD000D3AB1 /* TheToggleView.swift */,
+				98D27DF2298FE06F000D3AB1 /* TimePicker.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -268,7 +286,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				fr,
 				hi,
 			);
@@ -304,7 +321,12 @@
 			files = (
 				98D27DE1298F8491000D3AB1 /* MainGradient.swift in Sources */,
 				98295ACB298EBE8300530E30 /* MainAlarmView.swift in Sources */,
+				98D27DED298F97EA000D3AB1 /* CancelSaveAlarm.swift in Sources */,
 				98D27DCB298F6489000D3AB1 /* AlarmModel.swift in Sources */,
+				98D27DF3298FE06F000D3AB1 /* TimePicker.swift in Sources */,
+				98D27DF1298FAAFD000D3AB1 /* TheToggleView.swift in Sources */,
+				98D27DE9298F8AF8000D3AB1 /* YouDidItView.swift in Sources */,
+				98D27DEF298FAA7B000D3AB1 /* AlarmToggleView.swift in Sources */,
 				98295AC9298EBE8300530E30 /* iOSAlarmApp.swift in Sources */,
 				98D27DCF298F6703000D3AB1 /* SoundConstants.swift in Sources */,
 				98D27DD1298F69FA000D3AB1 /* SplashScreenView.swift in Sources */,
@@ -321,6 +343,7 @@
 				98D27DD3298F6B73000D3AB1 /* FourCoolCircles.swift in Sources */,
 				98295AEF298ED34100530E30 /* TimeOfDayIcon.swift in Sources */,
 				98D27DE7298F89E7000D3AB1 /* AddEditAlarmView.swift in Sources */,
+				98D27DEB298F9349000D3AB1 /* ToBedWakeUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

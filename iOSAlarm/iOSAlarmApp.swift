@@ -5,8 +5,8 @@ import SwiftUI
 struct iOSAlarmApp: App {
     var body: some Scene {
         WindowGroup {
-//            SplashScreenView()
-            AboutView()
+            SplashScreenView()
+//            AboutView()
         }
     }
 }
